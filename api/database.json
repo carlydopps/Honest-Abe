@@ -1,0 +1,50 @@
+{
+    "computers": [
+        {"id": 1, "model": "Macbook Pro", "year": 2015},
+        {"id": 2, "model": "Dell XPS", "year": 2016},
+        {"id": 3, "model": "Macbook Air", "year": 2017},
+        {"id": 4, "model": "Microsoft Surface", "year": 2018},
+        {"id": 5, "model": "Dell Inspiron", "year": 2019},
+        {"id": 6, "model": "Lenovo ThinkPad", "year": 2020},
+        {"id": 7, "model": "Juno Neptune", "year": 2021}
+    ],
+    "employees": [
+        {"id": 1, "firstName": "Elaine", "lastName": "Benes", "age": 30, "computerId": 1, "departmentId": 1, "locationId": 1},
+        {"id": 2, "firstName": "Cosmo", "lastName": "Kramer", "age": 38, "computerId": 2, "departmentId": 2, "locationId": 2},
+        {"id": 3, "firstName": "Jerry", "lastName": "Seinfeld", "age": 31, "computerId": 3, "departmentId": 3, "locationId": 3},
+        {"id": 4, "firstName": "George", "lastName": "Costanza", "age": 31, "computerId": 4, "departmentId": 4, "locationId": 3},
+        {"id": 5, "firstName": "J.", "lastName": "Peterman", "age": 55, "computerId": 5, "departmentId": 3, "locationId": 2},
+        {"id": 6, "firstName": "Susan", "lastName": "Ross", "age": 32, "computerId": 6, "departmentId": 2, "locationId": 1},
+        {"id": 7, "firstName": "Morty", "lastName": "Seinfeld", "age": 68, "computerId": 7, "departmentId": 1, "locationId": 2}
+    ],
+    "departments": [
+        {"id": 1, "name": "Marketing"},
+        {"id": 2, "name": "Finance"},
+        {"id": 3, "name": "Operations"},
+        {"id": 4, "name": "Engineering"}
+    ],
+    "locations": [
+        {"id": 1, "city": "Nashville"},
+        {"id": 2, "city": "Atlanta"},
+        {"id": 3, "city": "Memphis"}
+    ],
+    "customers": [
+        {"id": 1, "name": "Nick Miller"},
+        {"id": 2, "name": "Jessica Day"},
+        {"id": 3, "name": "Winston Schmidt"},
+        {"id": 4, "name": "Winston Bishop"},
+        {"id": 5, "name": "Cece Parekh"}
+    ],
+    "employeeCustomers": [
+        {"id": 1, "customerId": 4, "employeeId": 1},
+        {"id": 2, "customerId": 5, "employeeId": 1},
+        {"id": 3, "customerId": 1, "employeeId": 2},
+        {"id": 4, "customerId": 2, "employeeId": 2},
+        {"id": 5, "customerId": 3, "employeeId": 3},
+        {"id": 6, "customerId": 4, "employeeId": 3},
+        {"id": 7, "customerId": 2, "employeeId": 4},
+        {"id": 8, "customerId": 3, "employeeId": 4},
+        {"id": 9, "customerId": 1, "employeeId": 5},
+        {"id": 10, "customerId": 5, "employeeId": 5}
+    ]
+}
